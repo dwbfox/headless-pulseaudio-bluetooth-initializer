@@ -35,5 +35,5 @@ $ ./connect-blue.sh
 
 Or tie to startup or initial login
 ```bash
-$ echo ". ~/connect-blue.sh" >> ~/.bash_profile
+$ echo ". ~/connect-blue.sh >> ~/connect-blue.log " >> ~/.bash_profile
 ```
