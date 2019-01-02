@@ -1,5 +1,5 @@
 # headless-pulseaudio-bluetooth-initializer
-A small script to automate connecting to a bluetooth audio receiver (in my case to my home theatre system), connects to the bluetooth peer, and tries to verify that it's present as an audio sink. Very rough but it gets the job done.
+A small script to automate connecting to a bluetooth audio receiver (in my case to my home theatre system), starts up pulse audio if not running already, connects to the bluetooth peer, and tries to verify that it's present as an audio sink. Very rough but it gets the job done.
 
 ### Operation example
 Assuming pulse audio, alsa, bluetoothd device drivers are all installed and configured, set the following values in the script to reflect your environment:
