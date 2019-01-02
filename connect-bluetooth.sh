@@ -1,10 +1,10 @@
 #!/bin/bash
 
-BT_TARGET="C4:30:18:11:BF:76"
+BT_TARGET="00:00:00:00:00" # BD_ADDR 
 PACMD="/usr/bin/pacmd"
 BTCTL="/usr/bin/bluetoothctl"
 PA="/usr/bin/pulseaudio"
-CONN_TIMEOUT=30
+CONN_TIMEOUT=30 # Wait timeout for bluetooth connection
 
 #=================================================
 # exit-idle-time is necessary
