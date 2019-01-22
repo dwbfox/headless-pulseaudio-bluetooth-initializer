@@ -5,7 +5,7 @@
 set -o errexit
 set -o nounset
 
-readonly BT_TARGET="C4:30:18:11:BF:76"
+readonly BT_TARGET=""
 readonly PACMD="/usr/bin/pacmd"
 readonly BTCTL="/usr/bin/bluetoothctl"
 readonly PA="/usr/bin/pulseaudio"
